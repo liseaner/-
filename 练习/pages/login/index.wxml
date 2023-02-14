@@ -1,0 +1,7 @@
+<!--pages/login/index.wxml-->
+<button wx:if="{{canIUseGetUserProfile}}" type="primary" plain bindtap="getUserProfile"> 获取头像昵称/登录 </button>
+<!-- <button type="primary" plain open-type="getUserInfo" bindgetuserinfo="handleGetUserInfo">登录</button> -->
+<!-- <button  class="avatar-wrapper" open-type="chooseAvatar" bind:chooseavatar="onChooseAvatar" type="primary" plain>
+  <!-- <image class="avatar" src="{{avatarUrl}}"></image> -->
+  <!-- 登录 -->
+<!-- </button>  --> -->
